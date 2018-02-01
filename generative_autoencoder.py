@@ -10,6 +10,9 @@ X, y = load_data()
 X = X[0]
 z = X
 
+X = X/255
+z = z/255
+
 
 X = X[:, np.newaxis, :, :]
 
